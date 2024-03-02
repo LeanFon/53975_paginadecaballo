@@ -17,7 +17,7 @@
         <h2 class="subtitulosHeader">
             En este sitio podrás encontrar toda la información posible acerca de la carrera que atravesó un país entero
         </h2>
-        <nav class="d-flex justify-content-around pt-4">
+        <nav class="d-flex justify-content-around pt-4 pb-4">
             <div>
                 <a href="../index.html">Inicio</a>
             </div>
@@ -34,60 +34,37 @@
                 <a href="../pages/contacto.html">Reportar</a>
             </div>
         </nav>
-        <!--<nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/recursos_humanos.html">Destacados</a></li>
-                <li><a href="../pages/nosotros.html">Creditos</a></li>
-                <li><a href="../pages/propiedades.html">Compra</a></li>
-                <li><a href="../pages/contacto.html">Informar</a></li>
-            </ul>
-        </nav>-->
     </header>
-    <main class="p-5">
-       <section class="formulario">
-            <h1>
+    <main class="d-flex justify-content-around">
+       <section class="container row pt-5 shadow bg-body-tertiary pb-5">
+            <h1 class="col-12 text-center">
                 ¡Contáctenos!
             </h1>
-                <form>
+            <picture class="col-lg-4 col-sm-12">
+                <img src="../assets/img/imgFormulario.png" class="w-100">
+            </picture>
+                <form class="col-lg-4 col-sm-12 mt-5">
                     <div class="mb-3">
-                        <label>Apodo</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mati" required>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apodo" required>
                       </div>
                     <div class="mb-3">
-                        <label>Direccion Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre@servidor.com" required>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail" required>
                       </div>
                       <div class="mb-3">
-                        <label>Comentario sobre el sitio</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentario sobre el sitio" required></textarea>
                       </div>
+                      <button type="submit" class="btn form-control mt-3 mb-2">Enviar</button>
                 </form>
-            <!--<form>
-                <div>
-                    <input type="text" placeholder="Nombre" required>
-                </div>
-                <div>
-                    <input type="text" placeholder="Apellido" required>
-                </div>
-                <div>
-                    <input type="mail" placeholder="Mail" required>
-                </div>
-                    <textarea cols="30" rows="10" placeholder="Razones para participar" required>
-
-                    </textarea>
-                    <div>
-                        <input type="reset" value="Borrar">
-                        <input type="submit" value="Enviar">
-                    </div>
-            </form>-->
+            <picture class="col-lg-4 col-sm-12">
+                <img src="../assets/img/imgFormulario2.jpg" class="w-100">
+            </picture>
        </section>
         
     </main>
     <footer class="d-flex flex-row-reverse justify-content-around">
         <section class="footer col-md-8 col-sm-12 pt-5 container">
             <h1>
-                Contactos
+                Redes
             </h1>
             <a href="https://web.whatsapp.com/" target="_blank">
                 <i class="fa-brands fa-square-whatsapp"></i>
