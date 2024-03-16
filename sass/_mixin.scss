@@ -1,0 +1,5 @@
+
+@mixin usoMixin($pd-top:$pad100, $pd-bottom:$pad100){
+    padding-top: $pd-top;
+    padding-bottom: $pd-bottom;
+}

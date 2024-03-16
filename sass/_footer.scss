@@ -1,0 +1,39 @@
+@import'_variables';
+@keyframes float {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(40px);
+  }
+  100%{
+    transform:translateY(0px);
+  }
+}
+.icono{
+  animation-name: float;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.footer{
+      .wsp{
+        animation-delay: 1s;
+      }
+      .ins{
+        animation-delay: 2s;
+      }
+      .face{
+        animation-delay: 3s;
+      }
+    text-align: center;
+    i{
+      font-size: map-get($fuentes , fuenteI );
+      .icono{
+        animation-name: float;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+      }
+      
+    }
+      }

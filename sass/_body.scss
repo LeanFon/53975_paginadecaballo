@@ -1,0 +1,14 @@
+body{
+    background-image: $colorPrincipal;
+    p{
+      font-size: map-get($fuentes , fuenteP );
+    }
+    width: 100%;
+      a{
+        text-decoration: none;
+        color: black;
+            &:hover{
+                color: $links;
+            } 
+        }
+  }

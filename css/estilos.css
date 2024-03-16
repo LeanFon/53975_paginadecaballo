@@ -1,42 +1,103 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
-  
-   
-*{
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-  body{
-    background-color: rgb(134, 77, 39); 
+
+body {
+  background-image: linear-gradient(to right, #be6f48, #aa6440, #975939, #844e31, #72432a);
+  width: 100%;
+}
+body p {
+  font-size: 1.3rem;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body a:hover {
+  color: white;
+}
+
+.tituloHeader {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.subtitulosHeader {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+main {
+  background-image: linear-gradient(to right, #ffffff, #e2e1e2, #c6c4c4, #aba7a7, #908c8a);
+}
+main .tomos {
+  filter: grayscale(5);
+}
+main img:hover {
+  transform: skewY(1deg);
+  transition: 1s;
+  filter: none;
+}
+main span {
+  color: rgb(134, 77, 39);
+  background-color: rgba(134, 77, 39, 0.301);
+}
+main .padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 720px) {
+  main .imgAdapt {
+    display: none;
   }
- 
-  a:hover{
-    color: rgb(255, 255, 255);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
   }
-  main{
-    background-color: white;   
+  50% {
+    transform: translateY(40px);
   }
-  .tituloHeader{
-    margin-top: 90px;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    background-color: rgb(134, 77, 39);
+  100% {
+    transform: translateY(0px);
   }
-  .subtitulosHeader{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-top: 30px;
-  }
-  a{
-    text-decoration: none;
-    color: black;
-  }
-  .footer{
-    text-align: center;
-  }
-      
-  
-      
+}
+.icono {
+  animation-name: float;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.footer {
+  text-align: center;
+}
+.footer .wsp {
+  animation-delay: 1s;
+}
+.footer .ins {
+  animation-delay: 2s;
+}
+.footer .face {
+  animation-delay: 3s;
+}
+.footer i {
+  font-size: 5rem;
+}
+.footer i .icono {
+  animation-name: float;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/*hola*/
+
+/*# sourceMappingURL=estilos.css.map */

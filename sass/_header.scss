@@ -1,0 +1,12 @@
+.tituloHeader{
+    margin-top: 30px;
+    text-align: center;
+    font-size: map-get($fuentes , fuenteHead );
+    font-weight: 700;
+  }
+  .subtitulosHeader{
+    text-align: center;
+    font-size: map-get($fuentes , fuenteSub );
+    font-weight: 300;
+    margin-top: 30px;
+  }

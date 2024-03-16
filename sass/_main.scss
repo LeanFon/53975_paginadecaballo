@@ -1,0 +1,23 @@
+main{
+  background-image: $colorMain;
+    .tomos{
+      filter: grayscale(5);
+    }
+    img:hover{
+      transform: skewY(1deg);
+      transition: 1s;
+      filter: none;
+    }  
+    span{
+      color: $resaltador;
+      background-color: $p_fondo;
+    }
+    .padding{
+      @include usoMixin($pad100);
+    }
+    @media screen and (max-width: 720px) {
+      .imgAdapt{
+      display: none;
+      }
+    }
+  }
