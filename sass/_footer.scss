@@ -16,6 +16,7 @@
   animation-iteration-count: infinite;
 }
 .footer{
+  text-align: center;
       .wsp{
         animation-delay: 1s;
       }
@@ -25,7 +26,7 @@
       .face{
         animation-delay: 3s;
       }
-    text-align: center;
+    
     i{
       font-size: map-get($fuentes , fuenteI );
       .icono{
