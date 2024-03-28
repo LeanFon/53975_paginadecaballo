@@ -15,9 +15,6 @@ main{
     .padding{
       @include usoMixin($pad100);
     }
-    .sobrePaso{
-      overflow: hidden;
-    }
     @media screen and (max-width: 720px) {
       .imgAdapt{
       display: none;
